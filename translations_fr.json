@@ -1,97 +1,201 @@
 {
-    "app_title": "🍔 Ultimate Burger Generator Pro",
-    "classic_tab": "🍔 Classique",
-    "extreme_tab": "🌶️ Extrême",
-    "zodiac_tab": "♈ Zodiaque",
-    "size_label": "Taille:",
-    "type_label": "Type:",
-    "diet_label": "Régime:",
-    "sauce_label": "Sauce:",
-    "generate_btn": "✨ Générer",
-    "vegan_option": "Végan",
-    "halal_option": "Halal",
-    "kosher_option": "Cacher",
-    "choose_sign": "Choisissez votre signe",
-    "element": "Élément",
-    "save_btn": "💾 Sauvegarder",
-    "pdf_btn": "📄 Exporter PDF",
-    "share_btn": "🔗 Partager",
-    "history_title": "📜 Historique",
-    "view_btn": "👁️ Voir",
-    "delete_btn": "🗑️ Supprimer",
-    "ingredients_label": "🥗 Ingrédients:",
-    "calories_label": "🔥 Calories:",
-    "prediction_label": "🔮 Prédiction:",
-    "crazy_level": "Niveau de folie:",
-    "no_description": "Pas de description disponible",
-    "sauces": {
-        "Ketchup": "Tomate, sucre, vinaigre. Classique et acidulé.",
-        "Mayo": "Œuf, huile, moutarde. Onctueuse et riche.",
-        "BBQ": "Vinaigre, mélasse, épices. Fumée et douceur.",
-        "Spéciale": "Mayo, ketchup, cornichons. Secret du chef !"
+  "app_title": "🍔 Ultimate Burger Generator Pro",
+  "classic_tab": "🍔 Classique",
+  "extreme_tab": "🌶️ Extrême",
+  "zodiac_tab": "♈ Zodiaque",
+  "size_label": "Taille :",
+  "type_label": "Type :",
+  "sauce_label": "Sauce :",
+  "extras_label": "Suppléments :",
+  "generate_btn": "✨ Générer",
+  "random_btn": "🎲 Surprends-moi",
+  "vegan_option": "Végan",
+  "choose_sign": "Choisissez votre signe",
+  "element": "Élément",
+  "save_btn": "💾 Sauvegarder",
+  "pdf_btn": "📄 Exporter PDF",
+  "share_btn": "🔗 Partager",
+  "copy_btn": "📋 Copier",
+  "history_title": "📜 Historique",
+  "view_btn": "👁️ Voir",
+  "delete_btn": "🗑️ Supprimer",
+  "ingredients_label": "🥗 Ingrédients :",
+  "calories_label": "🔥 Calories :",
+  "prediction_label": "🔮 Prédiction :",
+  "crazy_level": "Niveau de folie :",
+  "no_description": "Pas de description disponible",
+  "info_title": "Info sauce",
+  "success_title": "Succès",
+  "error_title": "Erreur",
+  "confirm_title": "Confirmation",
+  "msg_no_burger": "Génère d'abord un burger.",
+  "msg_saved": "Burger sauvegardé !",
+  "msg_deleted": "Burger supprimé !",
+  "msg_confirm_delete": "Supprimer ce burger ?",
+  "msg_copied": "Texte copié dans le presse-papiers.",
+  "msg_save_error": "Erreur de sauvegarde : {error}",
+  "msg_history_error": "Impossible de charger l'historique : {error}",
+  "msg_delete_error": "Impossible de supprimer : {error}",
+  "msg_pdf_saved": "PDF sauvegardé :\n{path}",
+  "msg_pdf_error": "Erreur PDF : {error}",
+  "msg_translation_error": "Fichier de traduction illisible ({file}) : {error}",
+  "pdf_dialog_title": "Enregistrer le PDF",
+  "share_template": "Mon burger créé : {name} !\nIngrédients : {ingredients}\nCalories : {calories} kcal\n#GénérateurDeBurger",
+  "titles": {
+    "classic": "{type} {size}",
+    "extreme": "Burger Fou niveau {level}",
+    "extreme_vegan": "Burger Fou Végan niveau {level}",
+    "zodiac": "Burger {sign} {emoji}"
+  },
+  "burger_types": {
+    "hamburger": "Hamburger",
+    "cheeseburger": "Cheeseburger",
+    "bacon_burger": "Burger au bacon",
+    "chicken_burger": "Burger au poulet",
+    "fish_burger": "Burger au poisson",
+    "veggie_burger": "Burger végétarien"
+  },
+  "sizes": {
+    "simple": "Simple",
+    "double": "Double",
+    "triple": "Triple"
+  },
+  "elements": {
+    "fire": "Feu",
+    "earth": "Terre",
+    "air": "Air",
+    "water": "Eau"
+  },
+  "zodiac_signs": {
+    "aries": "Bélier",
+    "taurus": "Taureau",
+    "gemini": "Gémeaux",
+    "cancer": "Cancer",
+    "leo": "Lion",
+    "virgo": "Vierge",
+    "libra": "Balance",
+    "scorpio": "Scorpion",
+    "sagittarius": "Sagittaire",
+    "capricorn": "Capricorne",
+    "aquarius": "Verseau",
+    "pisces": "Poissons"
+  },
+  "zodiac_predictions": {
+    "aries": "Un burger explosif pour votre nature passionnée !",
+    "taurus": "Des saveurs riches pour votre palais gourmand.",
+    "gemini": "Un mélange surprenant, comme votre personnalité.",
+    "cancer": "Douceur et réconfort dans chaque bouchée.",
+    "leo": "Un burger royal, à la hauteur de votre charisme.",
+    "virgo": "Équilibre parfait pour votre esprit analytique.",
+    "libra": "Harmonie des saveurs pour votre âme diplomatique.",
+    "scorpio": "Intense et mystérieux, comme vous.",
+    "sagittarius": "Audacieux et épicé, pour votre soif d'aventure.",
+    "capricorn": "Classique et efficace, comme votre ambition.",
+    "aquarius": "Innovant et unique, à votre image.",
+    "pisces": "Doux et créatif, pour votre imagination."
+  },
+  "items": {
+    "bun": "Pain",
+    "bun_whole": "Pain complet",
+    "bun_spicy": "Pain épicé",
+    "bun_light": "Pain léger",
+    "bun_soft": "Pain moelleux",
+    "beef_patty": "Steak haché",
+    "chicken_fillet": "Filet de poulet",
+    "fish_fillet": "Filet de poisson",
+    "veggie_patty": "Galette végétale",
+    "cheese": "Fromage",
+    "bacon": "Bacon",
+    "egg": "Œuf",
+    "pickles": "Cornichons",
+    "tomato": "Tomate",
+    "lettuce": "Salade",
+    "spicy_steak": "Steak piquant",
+    "grilled_onions": "Oignons grillés",
+    "chili": "Piments",
+    "charolais": "Steak charolais",
+    "mushrooms": "Champignons",
+    "chicken_escalope": "Escalope de poulet",
+    "cucumber": "Concombre",
+    "avocado": "Avocat",
+    "shrimp": "Crevettes",
+    "cornflakes": "Cornflakes",
+    "ketchup_item": "Ketchup",
+    "nutella": "Nutella",
+    "fries": "Frites",
+    "sashimi": "Sashimi",
+    "vanilla_ice_cream": "Glace vanille",
+    "foie_gras": "Foie gras",
+    "caviar": "Caviar",
+    "ghost_pepper": "Piment ghost",
+    "edible_gold": "Or comestible",
+    "cereal": "Céréales",
+    "vegan_ketchup": "Ketchup végan",
+    "vegan_chocolate": "Chocolat végan",
+    "sweet_potatoes": "Patates douces",
+    "tofu": "Tofu",
+    "coconut_ice_cream": "Glace coco",
+    "truffles": "Truffes",
+    "eggplant_caviar": "Caviar d'aubergine",
+    "vegan_pepper": "Piment végan",
+    "edible_glitter": "Paillettes comestibles"
+  },
+  "sauces": {
+    "ketchup": {
+      "name": "Ketchup",
+      "desc": "Tomate, sucre, vinaigre. Classique et acidulé."
     },
-    "zodiac_signs": {
-        "Bélier": {"element": "Feu", "emoji": "♈"},
-        "Taureau": {"element": "Terre", "emoji": "♉"},
-        "Gémeaux": {"element": "Air", "emoji": "♊"},
-        "Cancer": {"element": "Eau", "emoji": "♋"},
-        "Lion": {"element": "Feu", "emoji": "♌"},
-        "Vierge": {"element": "Terre", "emoji": "♍"},
-        "Balance": {"element": "Air", "emoji": "♎"},
-        "Scorpion": {"element": "Eau", "emoji": "♏"},
-        "Sagittaire": {"element": "Feu", "emoji": "♐"},
-        "Capricorne": {"element": "Terre", "emoji": "♑"},
-        "Verseau": {"element": "Air", "emoji": "♒"},
-        "Poissons": {"element": "Eau", "emoji": "♓"}
+    "mayo": {
+      "name": "Mayo",
+      "desc": "Œuf, huile, moutarde. Onctueuse et riche."
     },
-    "zodiac_predictions": {
-        "Bélier": "Un burger explosif pour votre nature passionnée !",
-        "Taureau": "Des saveurs riches pour votre palais gourmand.",
-        "Gémeaux": "Un mélange surprenant, comme votre personnalité.",
-        "Cancer": "Douceur et réconfort dans chaque bouchée.",
-        "Lion": "Un burger royal, à la hauteur de votre charisme.",
-        "Vierge": "Équilibre parfait pour votre esprit analytique.",
-        "Balance": "Harmonie des saveurs pour votre âme diplomatique.",
-        "Scorpion": "Intense et mystérieux, comme vous.",
-        "Sagittaire": "Audacieux et épicé, pour votre soif d'aventure.",
-        "Capricorne": "Classique et efficace, comme votre ambition.",
-        "Verseau": "Innovant et unique, à votre image.",
-        "Poissons": "Doux et créatif, pour votre imagination."
+    "bbq": {
+      "name": "BBQ",
+      "desc": "Vinaigre, mélasse, épices. Fumée et douceur."
     },
-    "ingredients": {
-        "classic": {
-            "Hamburger": ["Pain", "Steak haché"],
-            "Cheeseburger": ["Pain", "Steak haché", "Fromage"],
-            "Bacon Burger": ["Pain", "Steak haché", "Fromage", "Bacon"],
-            "Chicken Burger": ["Pain", "Filet de poulet"],
-            "Fish Burger": ["Pain", "Filet de poisson"],
-            "Veggie Burger": ["Pain complet", "Galette végétale"],
-            "Double steak": "Double steak",
-            "Triple steak": "Triple steak",
-            "Double filet": "Double filet",
-            "Triple filet": "Triple filet"
-        },
-        "extreme": {
-            "non_vegan": {
-                "1": ["Cornflakes", "Ketchup"],
-                "3": ["Nutella", "Frites"],
-                "5": ["Sashimi", "Glace vanille"],
-                "7": ["Foie gras", "Caviar"],
-                "10": ["Piment ghost", "Or comestible"]
-            },
-            "vegan": {
-                "1": ["Céréales", "Ketchup végan"],
-                "3": ["Chocolat végan", "Patates douces"],
-                "5": ["Tofu", "Glace coco"],
-                "7": ["Truffes", "Caviar d'aubergine"],
-                "10": ["Piment végan", "Paillettes comestibles"]
-            }
-        },
-        "zodiac": {
-            "Feu": ["Pain épicé", "Steak piquant", "Oignons grillés", "Piments"],
-            "Terre": ["Pain complet", "Steak charolais", "Bacon", "Champignons"],
-            "Air": ["Pain léger", "Escalope de poulet", "Salade", "Concombre"],
-            "Eau": ["Pain moelleux", "Filet de poisson", "Avocat", "Crevettes"]
-        }
+    "special": {
+      "name": "Spéciale",
+      "desc": "Mayo, ketchup, cornichons. Secret du chef !"
+    },
+    "rainbow_mayo": {
+      "name": "Mayo arc-en-ciel",
+      "desc": "Mayonnaise colorée, à ne pas prendre au sérieux."
+    },
+    "banana_ketchup": {
+      "name": "Ketchup à la banane",
+      "desc": "Banane, vinaigre, épices. Sucré et surprenant."
+    },
+    "spice_1000": {
+      "name": "Sauce 1000 épices",
+      "desc": "Un mélange d'épices à réserver aux courageux."
+    },
+    "spicy": {
+      "name": "Sauce piquante",
+      "desc": "Piments et paprika. Elle réveille tout."
+    },
+    "forest": {
+      "name": "Sauce forestière",
+      "desc": "Champignons, crème, persil. Terreuse et douce."
+    },
+    "truffle": {
+      "name": "Sauce truffe",
+      "desc": "Crème et truffe. Riche et parfumée."
+    },
+    "light": {
+      "name": "Sauce légère",
+      "desc": "Yaourt, herbes fraîches, ciboulette. Fraîche et aérienne."
+    },
+    "lemon": {
+      "name": "Sauce citron",
+      "desc": "Citron, huile d'olive, poivre. Vive et acidulée."
+    },
+    "hollandaise": {
+      "name": "Hollandaise",
+      "desc": "Jaunes d'œuf, beurre, citron. Soyeuse."
+    },
+    "tartar": {
+      "name": "Sauce tartare",
+      "desc": "Mayo, câpres, échalote. Parfaite avec le poisson."
     }
+  }
 }

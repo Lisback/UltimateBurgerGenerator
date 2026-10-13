@@ -1,97 +1,201 @@
 {
-    "app_title": "🍔 Ultimate Burger Generator Pro",
-    "classic_tab": "🍔 Classic",
-    "extreme_tab": "🌶️ Extreme",
-    "zodiac_tab": "♈ Zodiac",
-    "size_label": "Size:",
-    "type_label": "Type:", 
-    "diet_label": "Diet:",
-    "sauce_label": "Sauce:",
-    "generate_btn": "✨ Generate",
-    "vegan_option": "Vegan",
-    "halal_option": "Halal",
-    "kosher_option": "Kosher",
-    "choose_sign": "Choose your sign",
-    "element": "Element",
-    "save_btn": "💾 Save",
-    "pdf_btn": "📄 Export PDF",
-    "share_btn": "🔗 Share",
-    "history_title": "📜 History",
-    "view_btn": "👁️ View",
-    "delete_btn": "🗑️ Delete",
-    "ingredients_label": "🥗 Ingredients:",
-    "calories_label": "🔥 Calories:",
-    "prediction_label": "🔮 Prediction:",
-    "crazy_level": "Crazy level:",
-    "no_description": "No description available",
-    "sauces": {
-        "Ketchup": "Tomato, sugar, vinegar. Classic and tangy.",
-        "Mayo": "Egg, oil, mustard. Creamy and rich.",
-        "BBQ": "Vinegar, molasses, spices. Smoky and sweet.",
-        "Special": "Mayo, ketchup, pickles. Chef's secret!"
+  "app_title": "🍔 Ultimate Burger Generator Pro",
+  "classic_tab": "🍔 Classic",
+  "extreme_tab": "🌶️ Extreme",
+  "zodiac_tab": "♈ Zodiac",
+  "size_label": "Size:",
+  "type_label": "Type:",
+  "sauce_label": "Sauce:",
+  "extras_label": "Extras:",
+  "generate_btn": "✨ Generate",
+  "random_btn": "🎲 Surprise me",
+  "vegan_option": "Vegan",
+  "choose_sign": "Choose your sign",
+  "element": "Element",
+  "save_btn": "💾 Save",
+  "pdf_btn": "📄 Export PDF",
+  "share_btn": "🔗 Share",
+  "copy_btn": "📋 Copy",
+  "history_title": "📜 History",
+  "view_btn": "👁️ View",
+  "delete_btn": "🗑️ Delete",
+  "ingredients_label": "🥗 Ingredients:",
+  "calories_label": "🔥 Calories:",
+  "prediction_label": "🔮 Prediction:",
+  "crazy_level": "Crazy level:",
+  "no_description": "No description available",
+  "info_title": "Sauce info",
+  "success_title": "Success",
+  "error_title": "Error",
+  "confirm_title": "Confirmation",
+  "msg_no_burger": "Generate a burger first.",
+  "msg_saved": "Burger saved!",
+  "msg_deleted": "Burger deleted!",
+  "msg_confirm_delete": "Delete this burger?",
+  "msg_copied": "Text copied to the clipboard.",
+  "msg_save_error": "Save error: {error}",
+  "msg_history_error": "Failed to load history: {error}",
+  "msg_delete_error": "Failed to delete: {error}",
+  "msg_pdf_saved": "PDF saved:\n{path}",
+  "msg_pdf_error": "PDF error: {error}",
+  "msg_translation_error": "Unreadable translation file ({file}): {error}",
+  "pdf_dialog_title": "Save PDF",
+  "share_template": "Check out my burger: {name}!\nIngredients: {ingredients}\nCalories: {calories} kcal\n#BurgerGenerator",
+  "titles": {
+    "classic": "{size} {type}",
+    "extreme": "Crazy Burger Level {level}",
+    "extreme_vegan": "Vegan Crazy Burger Level {level}",
+    "zodiac": "{sign} Burger {emoji}"
+  },
+  "burger_types": {
+    "hamburger": "Hamburger",
+    "cheeseburger": "Cheeseburger",
+    "bacon_burger": "Bacon Burger",
+    "chicken_burger": "Chicken Burger",
+    "fish_burger": "Fish Burger",
+    "veggie_burger": "Veggie Burger"
+  },
+  "sizes": {
+    "simple": "Single",
+    "double": "Double",
+    "triple": "Triple"
+  },
+  "elements": {
+    "fire": "Fire",
+    "earth": "Earth",
+    "air": "Air",
+    "water": "Water"
+  },
+  "zodiac_signs": {
+    "aries": "Aries",
+    "taurus": "Taurus",
+    "gemini": "Gemini",
+    "cancer": "Cancer",
+    "leo": "Leo",
+    "virgo": "Virgo",
+    "libra": "Libra",
+    "scorpio": "Scorpio",
+    "sagittarius": "Sagittarius",
+    "capricorn": "Capricorn",
+    "aquarius": "Aquarius",
+    "pisces": "Pisces"
+  },
+  "zodiac_predictions": {
+    "aries": "A fiery burger for your passionate nature!",
+    "taurus": "Rich flavors for your gourmet palate.",
+    "gemini": "A surprising mix, just like your personality.",
+    "cancer": "Comfort and sweetness in every bite.",
+    "leo": "A royal burger, fit for your charisma.",
+    "virgo": "Perfect balance for your analytical mind.",
+    "libra": "Harmonious flavors for your diplomatic soul.",
+    "scorpio": "Intense and mysterious, just like you.",
+    "sagittarius": "Bold and spicy, for your thirst for adventure.",
+    "capricorn": "Classic and efficient, like your ambition.",
+    "aquarius": "Innovative and unique, just like you.",
+    "pisces": "Soft and creative, for your imagination."
+  },
+  "items": {
+    "bun": "Bun",
+    "bun_whole": "Whole wheat bun",
+    "bun_spicy": "Spicy bun",
+    "bun_light": "Light bun",
+    "bun_soft": "Soft bun",
+    "beef_patty": "Beef patty",
+    "chicken_fillet": "Chicken fillet",
+    "fish_fillet": "Fish fillet",
+    "veggie_patty": "Veggie patty",
+    "cheese": "Cheese",
+    "bacon": "Bacon",
+    "egg": "Egg",
+    "pickles": "Pickles",
+    "tomato": "Tomato",
+    "lettuce": "Lettuce",
+    "spicy_steak": "Spicy steak",
+    "grilled_onions": "Grilled onions",
+    "chili": "Chili peppers",
+    "charolais": "Charolais beef",
+    "mushrooms": "Mushrooms",
+    "chicken_escalope": "Chicken escalope",
+    "cucumber": "Cucumber",
+    "avocado": "Avocado",
+    "shrimp": "Shrimp",
+    "cornflakes": "Cornflakes",
+    "ketchup_item": "Ketchup",
+    "nutella": "Nutella",
+    "fries": "Fries",
+    "sashimi": "Sashimi",
+    "vanilla_ice_cream": "Vanilla ice cream",
+    "foie_gras": "Foie gras",
+    "caviar": "Caviar",
+    "ghost_pepper": "Ghost pepper",
+    "edible_gold": "Edible gold",
+    "cereal": "Cereal",
+    "vegan_ketchup": "Vegan ketchup",
+    "vegan_chocolate": "Vegan chocolate",
+    "sweet_potatoes": "Sweet potatoes",
+    "tofu": "Tofu",
+    "coconut_ice_cream": "Coconut ice cream",
+    "truffles": "Truffles",
+    "eggplant_caviar": "Eggplant caviar",
+    "vegan_pepper": "Vegan pepper",
+    "edible_glitter": "Edible glitter"
+  },
+  "sauces": {
+    "ketchup": {
+      "name": "Ketchup",
+      "desc": "Tomato, sugar, vinegar. Classic and tangy."
     },
-    "zodiac_signs": {
-        "Aries": {"element": "Fire", "emoji": "♈"},
-        "Taurus": {"element": "Earth", "emoji": "♉"},
-        "Gemini": {"element": "Air", "emoji": "♊"},
-        "Cancer": {"element": "Water", "emoji": "♋"},
-        "Leo": {"element": "Fire", "emoji": "♌"},
-        "Virgo": {"element": "Earth", "emoji": "♍"},
-        "Libra": {"element": "Air", "emoji": "♎"},
-        "Scorpio": {"element": "Water", "emoji": "♏"},
-        "Sagittarius": {"element": "Fire", "emoji": "♐"},
-        "Capricorn": {"element": "Earth", "emoji": "♑"},
-        "Aquarius": {"element": "Air", "emoji": "♒"},
-        "Pisces": {"element": "Water", "emoji": "♓"}
+    "mayo": {
+      "name": "Mayo",
+      "desc": "Egg, oil, mustard. Creamy and rich."
     },
-    "zodiac_predictions": {
-        "Aries": "A fiery burger for your passionate nature!",
-        "Taurus": "Rich flavors for your gourmet palate.",
-        "Gemini": "A surprising mix, just like your personality.",
-        "Cancer": "Comfort and sweetness in every bite.",
-        "Leo": "A royal burger, fit for your charisma.",
-        "Virgo": "Perfect balance for your analytical mind.",
-        "Libra": "Harmonious flavors for your diplomatic soul.",
-        "Scorpio": "Intense and mysterious, just like you.",
-        "Sagittarius": "Bold and spicy, for your thirst for adventure.",
-        "Capricorn": "Classic and efficient, like your ambition.",
-        "Aquarius": "Innovative and unique, just like you.",
-        "Pisces": "Soft and creative, for your imagination."
+    "bbq": {
+      "name": "BBQ",
+      "desc": "Vinegar, molasses, spices. Smoky and sweet."
     },
-    "ingredients": {
-        "classic": {
-            "Hamburger": ["Bun", "Beef patty"],
-            "Cheeseburger": ["Bun", "Beef patty", "Cheese"],
-            "Bacon Burger": ["Bun", "Beef patty", "Cheese", "Bacon"],
-            "Chicken Burger": ["Bun", "Chicken fillet"],
-            "Fish Burger": ["Bun", "Fish fillet"],
-            "Veggie Burger": ["Whole wheat bun", "Veggie patty"],
-            "Double steak": "Double steak",
-            "Triple steak": "Triple steak",
-            "Double filet": "Double fillet",
-            "Triple filet": "Triple fillet"
-        },
-        "extreme": {
-            "non_vegan": {
-                "1": ["Cornflakes", "Ketchup"],
-                "3": ["Nutella", "Fries"],
-                "5": ["Sashimi", "Vanilla ice cream"],
-                "7": ["Foie gras", "Caviar"],
-                "10": ["Ghost pepper", "Edible gold"]
-            },
-            "vegan": {
-                "1": ["Cereal", "Vegan ketchup"],
-                "3": ["Vegan chocolate", "Sweet potatoes"],
-                "5": ["Tofu", "Coconut ice cream"],
-                "7": ["Truffles", "Eggplant caviar"],
-                "10": ["Vegan pepper", "Edible glitter"]
-            }
-        },
-        "zodiac": {
-            "Fire": ["Spicy bun", "Spicy steak", "Grilled onions", "Chili peppers"],
-            "Earth": ["Whole wheat bun", "Charolais beef", "Bacon", "Mushrooms"],
-            "Air": ["Light bun", "Chicken escalope", "Lettuce", "Cucumber"],
-            "Water": ["Soft bun", "Fish fillet", "Avocado", "Shrimp"]
-        }
+    "special": {
+      "name": "Special",
+      "desc": "Mayo, ketchup, pickles. Chef's secret!"
+    },
+    "rainbow_mayo": {
+      "name": "Rainbow mayo",
+      "desc": "Colorful mayonnaise, not to be taken seriously."
+    },
+    "banana_ketchup": {
+      "name": "Banana ketchup",
+      "desc": "Banana, vinegar, spices. Sweet and surprising."
+    },
+    "spice_1000": {
+      "name": "1000-spice sauce",
+      "desc": "A spice blend for the brave only."
+    },
+    "spicy": {
+      "name": "Spicy sauce",
+      "desc": "Chili and paprika. Wakes everything up."
+    },
+    "forest": {
+      "name": "Forest sauce",
+      "desc": "Mushrooms, cream, parsley. Earthy and mellow."
+    },
+    "truffle": {
+      "name": "Truffle sauce",
+      "desc": "Cream and truffle. Rich and fragrant."
+    },
+    "light": {
+      "name": "Light sauce",
+      "desc": "Yogurt, fresh herbs, chives. Fresh and airy."
+    },
+    "lemon": {
+      "name": "Lemon sauce",
+      "desc": "Lemon, olive oil, pepper. Bright and zesty."
+    },
+    "hollandaise": {
+      "name": "Hollandaise",
+      "desc": "Egg yolks, butter, lemon. Silky."
+    },
+    "tartar": {
+      "name": "Tartar sauce",
+      "desc": "Mayo, capers, shallot. Perfect with fish."
     }
+  }
 }

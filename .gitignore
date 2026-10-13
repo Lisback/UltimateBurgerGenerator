@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+burgers.db
+.pytest_cache/
